@@ -1,0 +1,138 @@
+{
+  "source_file": "02_DATOS\\online_retail_II.xlsx",
+  "sheet_names": [
+    "Year 2009-2010",
+    "Year 2010-2011"
+  ],
+  "sheets": {
+    "Year 2009-2010": {
+      "dataframe_dimensions": [
+        525461,
+        8
+      ],
+      "worksheet_dimensions_including_header": [
+        525462,
+        8
+      ],
+      "data_types": {
+        "Invoice": "object",
+        "StockCode": "object",
+        "Description": "object",
+        "Quantity": "int64",
+        "InvoiceDate": "datetime64[us]",
+        "Price": "float64",
+        "Customer ID": "float64",
+        "Country": "str"
+      },
+      "example_records": [
+        {
+          "Invoice": 489434,
+          "StockCode": 85048,
+          "Description": "15CM CHRISTMAS GLASS BALL 20 LIGHTS",
+          "Quantity": 12,
+          "InvoiceDate": "2009-12-01T07:45:00.000",
+          "Price": 6.95,
+          "Customer ID": 13085.0,
+          "Country": "United Kingdom"
+        },
+        {
+          "Invoice": 489434,
+          "StockCode": "79323P",
+          "Description": "PINK CHERRY LIGHTS",
+          "Quantity": 12,
+          "InvoiceDate": "2009-12-01T07:45:00.000",
+          "Price": 6.75,
+          "Customer ID": 13085.0,
+          "Country": "United Kingdom"
+        },
+        {
+          "Invoice": 489434,
+          "StockCode": "79323W",
+          "Description": " WHITE CHERRY LIGHTS",
+          "Quantity": 12,
+          "InvoiceDate": "2009-12-01T07:45:00.000",
+          "Price": 6.75,
+          "Customer ID": 13085.0,
+          "Country": "United Kingdom"
+        }
+      ]
+    },
+    "Year 2010-2011": {
+      "dataframe_dimensions": [
+        541910,
+        8
+      ],
+      "worksheet_dimensions_including_header": [
+        541911,
+        8
+      ],
+      "data_types": {
+        "Invoice": "object",
+        "StockCode": "object",
+        "Description": "object",
+        "Quantity": "int64",
+        "InvoiceDate": "datetime64[us]",
+        "Price": "float64",
+        "Customer ID": "float64",
+        "Country": "str"
+      },
+      "example_records": [
+        {
+          "Invoice": 536365,
+          "StockCode": "85123A",
+          "Description": "WHITE HANGING HEART T-LIGHT HOLDER",
+          "Quantity": 6,
+          "InvoiceDate": "2010-12-01T08:26:00.000",
+          "Price": 2.55,
+          "Customer ID": 17850.0,
+          "Country": "United Kingdom"
+        },
+        {
+          "Invoice": 536365,
+          "StockCode": 71053,
+          "Description": "WHITE METAL LANTERN",
+          "Quantity": 6,
+          "InvoiceDate": "2010-12-01T08:26:00.000",
+          "Price": 3.39,
+          "Customer ID": 17850.0,
+          "Country": "United Kingdom"
+        },
+        {
+          "Invoice": 536365,
+          "StockCode": "84406B",
+          "Description": "CREAM CUPID HEARTS COAT HANGER",
+          "Quantity": 8,
+          "InvoiceDate": "2010-12-01T08:26:00.000",
+          "Price": 2.75,
+          "Customer ID": 17850.0,
+          "Country": "United Kingdom"
+        }
+      ]
+    }
+  },
+  "consolidated_dimensions": [
+    1067371,
+    10
+  ],
+  "consolidated_columns": [
+    "Invoice",
+    "StockCode",
+    "Description",
+    "Quantity",
+    "InvoiceDate",
+    "Price",
+    "Customer ID",
+    "Country",
+    "Period",
+    "SourceSheet"
+  ],
+  "records_by_source_sheet": {
+    "Year 2009-2010": 525461,
+    "Year 2010-2011": 541910
+  },
+  "period_by_source_sheet": {
+    "Year 2009-2010": "2009-2010",
+    "Year 2010-2011": "2010-2011"
+  },
+  "output_file": "online_retail_II_consolidado.csv"
+}

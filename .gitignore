@@ -1,0 +1,6 @@
+
+.venv/
+.venv-1/
+__pycache__/
+.ipynb_checkpoints/
+02_DATOS/online_retail_II_consolidado.csv
